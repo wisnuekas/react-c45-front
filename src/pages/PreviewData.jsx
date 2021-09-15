@@ -1,12 +1,12 @@
 import React from "react";
-import ResultTree from "../components/ResultTree";
+import Preview from "../components/Preview";
 
-export default function Pohon() {
+export default function PreviewData() {
   return (
     <div className="container my-4">
       <div className="row">
         <div className="col">
-          <ResultTree />
+          <Preview />
         </div>
       </div>
     </div>
